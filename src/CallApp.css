@@ -1,0 +1,45 @@
+.call-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  .my-id {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .input-id {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .call-button, .accept-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .accept-button {
+    background-color: royalblue;
+  }
+  
+  .ringing-box {
+    margin-top: 20px;
+    background: #ffeaa7;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .audio-players {
+    margin-top: 20px;
+  }
+  

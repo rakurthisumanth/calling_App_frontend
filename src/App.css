@@ -28,6 +28,51 @@
   color: #61dafb;
 }
 
+.call-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+.my-id {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.input-id {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.call-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.call-button:hover {
+  background-color: #45a049;
+}
+
+.audio-players {
+  margin-top: 30px;
+  display: none; /* Keep hidden unless debugging */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
